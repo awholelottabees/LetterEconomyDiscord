@@ -71,7 +71,6 @@ async def on_message(message):
     global managerId
     global maxLetters
     global tradingChannel
-    global tradingChannel
     dt = datetime.now(timezone.utc)
     if(currDate == 0):
         print("Setting Initial Date")
