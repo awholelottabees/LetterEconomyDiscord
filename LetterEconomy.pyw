@@ -83,6 +83,7 @@ async def on_message(message):
                 updateStocks()
     currDate = dt
 
+    #If for some UNGODLY reason you want these messages in every channel, delete these two lines
     if(message.channel.id != tradingChannel):
         return False
     
